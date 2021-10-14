@@ -151,45 +151,6 @@ bool Bank::updateAccount(string nome_titular) {
                 }
             }
         }
-        for (auto* a: accounts) {
-            ContaComum* cc = dynamic_cast<ContaComum*>(a);
-            ContaLimite* cl = dynamic_cast<ContaLimite*>(a);
-            if (cc) {
-                if (cc->getAccountHolder()->getName() == nome_titular) {
-                    cc->getAccountHolder()->setName(a_name);
-                    cc->getAccountHolder()->setAdd(a_addr);
-                    cc->getAccountHolder()->setEmail(a_email);
-                    cc->getAccountHolder()->setPhone(a_phone);
-                    PessoaJuridica* aux_pj = dynamic_cast<PessoaJuridica*>(cc->getAccountHolder());
-                    if (aux_pj) {
-                        aux_pj->setTradeName(a_trn);
-                    }
-                }
-            } else if (cl) {
-                if (cl->getAccountHolder()->getName() == nome_titular) {
-                    cl->getAccountHolder()->setName(a_name);
-                    cl->getAccountHolder()->setAdd(a_addr);
-                    cl->getAccountHolder()->setEmail(a_email);
-                    cl->getAccountHolder()->setPhone(a_phone);
-                    PessoaJuridica* aux_pj = dynamic_cast<PessoaJuridica*>(cl->getAccountHolder());
-                    if (aux_pj) {
-                        aux_pj->setTradeName(a_trn);
-                    }
-                }
-            } else {
-                ContaPoupanca* cp = dynamic_cast<ContaPoupanca*>(a);
-                if (cp->getAccountHolder()->getName() == nome_titular) {
-                    cp->getAccountHolder()->setName(a_name);
-                    cp->getAccountHolder()->setAdd(a_addr);
-                    cp->getAccountHolder()->setEmail(a_email);
-                    cp->getAccountHolder()->setPhone(a_phone);
-                    PessoaJuridica* aux_pj = dynamic_cast<PessoaJuridica*>(cp->getAccountHolder());
-                    if (aux_pj) {
-                        aux_pj->setTradeName(a_trn);
-                    }
-                }
-            }
-        }
         cout << endl;
         return true;
     }
