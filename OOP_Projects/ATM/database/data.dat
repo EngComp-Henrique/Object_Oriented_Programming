@@ -1,0 +1,22 @@
+pf|Luis Henrique|Av. Raimundo Nonato|9988-8877|luis@yahoo.com|98745632102|2001
+cc|111|2000.000000
+tr|13|10|2021|22|13|Valor depositado|500.000000
+tr|13|10|2021|22|14|Valor sacado|100.000000
+tr|13|10|2021|22|14|Transferência bancárias: Luis Henrique -> Matheus Felipe|100.000000
+tr|14|10|2021|7|40|Valor depositado|1500.000000
+tr|14|10|2021|7|40|Transferência bancárias: Luis Henrique <- IFPBank|1500.000000
+pf|Matheus|Av. Veloso Alves|9898-8989|mathFel@gmail.com|25896314798|2000
+cl|222|10100.000000|13000.000000
+tr|13|10|2021|22|14|Valor depositado|100.000000
+tr|13|10|2021|22|14|Transferência bancárias: Matheus Felipe <- Luis Henrique|100.000000
+pj|Coca-cola|Av. Formula Secreta|9988-9678|coca@coquinhagelada.com|98745632125478|COCA S.A
+cp|15987|1000000.000000|14|10|2021
+pf|Victor Andre|Rua Ce Mais Mais|8896-6352|victor@gmail.com|98521478510|2000
+cl|654|10000.000000|12000.000000
+pj|IFPBank|Av. Joao maria|8569-9999|ifpb@bank.com|98752015987452|IF BANK S.A
+cc|555|13000.000000
+tr|14|10|2021|7|40|Valor depositado|5000.000000
+tr|14|10|2021|7|40|Valor sacado|500.000000
+tr|14|10|2021|7|40|Transferência bancárias: IFPBank -> Luis Henrique|1500.000000
+pf|Tavares|Rua Perna Torta|8526-9785|tav@bol.com.br|12345678912|1961
+cl|0021|1000.000000|5000.000000
