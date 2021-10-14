@@ -40,8 +40,11 @@ void ContaComum::extrato() const {
     getOwnerInfo();
     cout << "Número da conta:" << left << setfill('.') << setw(9) << " " << getAccountNumber() << endl;
     if (!transactions.empty()) {
+        int count_tr = 0;
         cout << "TRANSAÇÕES: " << endl << endl;
         for (auto & i : transactions) {
+            if (count_tr == 30)
+                break;
             cout << "Data:" << left << setfill('.') << setw(20) << " " << right << setfill('0') << setw(2) << i.get_Tday() << "/"
             << setfill('0') << setw(2) << i.get_Tmonth() << "/" << i.get_Tyear() << endl;
             cout << "Descrição:" << left << setfill('.') << setw(15) << " " << i.getDescription() << endl;
@@ -52,6 +55,7 @@ void ContaComum::extrato() const {
             cout << fixed;
             cout << setprecision(2) << "(R$):" << left << setfill('.') << setw(5) << " " << i.getAmount() << endl;
             cout << sep << endl;
+            count_tr++;
         }
     } else {
         cout << "Sem transações até o momento." << endl;
