@@ -12,7 +12,7 @@ Finite automata is a mathematical model used to understand and study computers w
 * A arrow pointing from a state to another is called transition
 
 <p align="center">
-    <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fda627cbb-d92a-457d-a8b3-151faa1c9fd6%2FCaptura_de_tela_de_2021-11-16_19-57-00.png?table=block&id=fbc4aed9-0d69-4ba1-a10c-b6cd5d2f4357&spaceId=53826828-8cd9-4ae8-acd3-ec83b3a6582d&width=2000&userId=4982f1af-0bed-4dda-9d16-1e99fd5bc16c&cache=v2"/>
+    <img src="fda.png"/>
 </p>
 
 Check this link for the course about theory of computation: [MIT Theory of Computation Course](https://www.youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY)
