@@ -242,9 +242,9 @@ int main()
       } 
       
       catch(InvalidOperation& e) {
+         cout << e.what() << endl;
          std::this_thread::sleep_for(2000ms);
          system("clear");
-         cout << e.what() << endl;
          continue;
       }
 
